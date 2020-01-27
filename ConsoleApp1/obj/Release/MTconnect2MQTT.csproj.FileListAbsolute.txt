@@ -1,0 +1,15 @@
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\current.xml
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\current_ts.xml
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\probe.xml
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\probe_ts.xml
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\config.ini
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\ConsoleApp1.exe.config
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\ConsoleApp1.exe
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\ConsoleApp1.pdb
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\M2Mqtt.Net.dll
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\bin\Release\M2Mqtt.Net.pdb
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\obj\Release\MTconnect2MQTT.csprojResolveAssemblyReference.cache
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\obj\Release\MTconnect2MQTT.csproj.CoreCompileInputs.cache
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\obj\Release\MTconnect2MQTT.csproj.CopyComplete
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\obj\Release\ConsoleApp1.exe
+C:\Users\Karl\Desktop\MTconnect2MQTT_v03\ConsoleApp1\obj\Release\ConsoleApp1.pdb

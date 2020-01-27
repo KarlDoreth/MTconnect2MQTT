@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:1.3" xmlns="urn:mtconnect.org:MTConnectStreams:1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:1.3 http://www.mtconnect.org/schemas/MTConnectStreams_1.3.xsd">
+  <Header creationTime="2018-10-17T16:33:01Z" sender="CELOS-PC" instanceId="1539784855" version="1.3.0.17" bufferSize="131072" nextSequence="355" firstSequence="1" lastSequence="354"/>
+  <Streams>
+    <DeviceStream name="DMGCETR0000003" uuid="28">
+      <ComponentStream component="Device" name="DMGCETR0000003" componentId="12400000253_1">
+        <Events>
+          <EmergencyStop dataItemId="12400000253_1" timestamp="2018-10-17T14:00:56.3057620Z" name="estop" sequence="221">ARMED</EmergencyStop>
+          <AssetChanged dataItemId="12400000253_1_asset_chg" timestamp="2018-10-17T14:00:55.758730Z" sequence="82" assetType="">UNAVAILABLE</AssetChanged>
+          <AssetRemoved dataItemId="12400000253_1_asset_rem" timestamp="2018-10-17T14:00:55.758730Z" sequence="83" assetType="">UNAVAILABLE</AssetRemoved>
+          <Availability dataItemId="12400000253_2" timestamp="2018-10-17T14:00:56.3057620Z" name="avail" sequence="220">AVAILABLE</Availability>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="B2" componentId="12400000253_10">
+        <Samples>
+          <Angle dataItemId="12400000253_11" timestamp="2018-10-17T14:00:56.3057620Z" name="B2act" sequence="241" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_12" timestamp="2018-10-17T14:00:56.3057620Z" name="B2load" sequence="242">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Path" name="Path_2" componentId="12400000253_116">
+        <Samples>
+          <PathFeedrate dataItemId="12400000253_125" timestamp="2018-10-17T14:00:55.758730Z" name="path_feedrate2" sequence="28" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+        </Samples>
+        <Events>
+          <Reset dataItemId="12400000253_117" timestamp="2018-10-17T14:00:55.758730Z" name="reset2" sequence="19">UNAVAILABLE</Reset>
+          <PartCount dataItemId="12400000253_118" timestamp="2018-10-17T14:00:55.758730Z" name="part_count2" sequence="20" subType="ALL">UNAVAILABLE</PartCount>
+          <ActiveAxes dataItemId="12400000253_119" timestamp="2018-10-17T14:00:55.758730Z" name="axes2" sequence="21">UNAVAILABLE</ActiveAxes>
+          <ControllerMode dataItemId="12400000253_120" timestamp="2018-10-17T14:00:55.758730Z" name="mode2" sequence="23">UNAVAILABLE</ControllerMode>
+          <Execution dataItemId="12400000253_121" timestamp="2018-10-17T14:00:55.758730Z" name="execution2" sequence="24">UNAVAILABLE</Execution>
+          <Program dataItemId="12400000253_122" timestamp="2018-10-17T14:00:55.758730Z" name="program2" sequence="25">UNAVAILABLE</Program>
+          <Line dataItemId="12400000253_123" timestamp="2018-10-17T14:00:55.758730Z" name="line2" sequence="26" subType="MINIMUM">UNAVAILABLE</Line>
+          <Block dataItemId="12400000253_124" timestamp="2018-10-17T14:00:55.758730Z" name="block2" sequence="27">UNAVAILABLE</Block>
+          <ToolNumber dataItemId="12400000253_126" timestamp="2018-10-17T14:00:55.758730Z" name="toolnumber2" sequence="29">UNAVAILABLE</ToolNumber>
+          <OptionalStop dataItemId="12400000253_127" timestamp="2018-10-17T14:00:55.758730Z" name="optionalstop2" sequence="30">UNAVAILABLE</OptionalStop>
+          <BlockDelete dataItemId="12400000253_128" timestamp="2018-10-17T14:00:55.758730Z" name="blockdelete2" sequence="31">UNAVAILABLE</BlockDelete>
+          <DryRun dataItemId="12400000253_129" timestamp="2018-10-17T14:00:55.758730Z" name="dryrun2" sequence="32">UNAVAILABLE</DryRun>
+          <Cutting dataItemId="12400000253_130" timestamp="2018-10-17T14:00:55.758730Z" name="cutting2" sequence="33">UNAVAILABLE</Cutting>
+          <OperationMode dataItemId="12400000253_131" timestamp="2018-10-17T14:00:55.758730Z" name="operationmode2" sequence="34">UNAVAILABLE</OperationMode>
+          <PathFeedrateOverride dataItemId="12400000253_132" timestamp="2018-10-17T14:00:55.758730Z" name="jogoverride2" sequence="35" subType="JOG">UNAVAILABLE</PathFeedrateOverride>
+          <PathFeedrateOverride dataItemId="12400000253_133" timestamp="2018-10-17T14:00:55.758730Z" name="rapidoverride2" sequence="36" subType="RAPID">UNAVAILABLE</PathFeedrateOverride>
+        </Events>
+        <Condition>
+          <Unavailable dataItemId="12400000253_134" timestamp="2018-10-17T14:00:55.758730Z" name="logic2" sequence="37" type="LOGIC_PROGRAM"/>
+          <Unavailable dataItemId="12400000253_135" timestamp="2018-10-17T14:00:55.758730Z" name="motion2" sequence="38" type="MOTION_PROGRAM"/>
+        </Condition>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="B3" componentId="12400000253_13">
+        <Samples>
+          <Angle dataItemId="12400000253_14" timestamp="2018-10-17T14:00:56.3057620Z" name="B3act" sequence="243" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_15" timestamp="2018-10-17T14:00:56.3057620Z" name="B3load" sequence="244">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Path" name="Path_3" componentId="12400000253_136">
+        <Samples>
+          <PathFeedrate dataItemId="12400000253_145" timestamp="2018-10-17T14:00:55.758730Z" name="path_feedrate3" sequence="48" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+        </Samples>
+        <Events>
+          <Reset dataItemId="12400000253_137" timestamp="2018-10-17T14:00:55.758730Z" name="reset3" sequence="39">UNAVAILABLE</Reset>
+          <PartCount dataItemId="12400000253_138" timestamp="2018-10-17T14:00:55.758730Z" name="part_count3" sequence="40" subType="ALL">UNAVAILABLE</PartCount>
+          <ActiveAxes dataItemId="12400000253_139" timestamp="2018-10-17T14:00:55.758730Z" name="axes3" sequence="41">UNAVAILABLE</ActiveAxes>
+          <ControllerMode dataItemId="12400000253_140" timestamp="2018-10-17T14:00:55.758730Z" name="mode3" sequence="43">UNAVAILABLE</ControllerMode>
+          <Execution dataItemId="12400000253_141" timestamp="2018-10-17T14:00:55.758730Z" name="execution3" sequence="44">UNAVAILABLE</Execution>
+          <Program dataItemId="12400000253_142" timestamp="2018-10-17T14:00:55.758730Z" name="program3" sequence="45">UNAVAILABLE</Program>
+          <Line dataItemId="12400000253_143" timestamp="2018-10-17T14:00:55.758730Z" name="line3" sequence="46" subType="MINIMUM">UNAVAILABLE</Line>
+          <Block dataItemId="12400000253_144" timestamp="2018-10-17T14:00:55.758730Z" name="block3" sequence="47">UNAVAILABLE</Block>
+          <ToolNumber dataItemId="12400000253_146" timestamp="2018-10-17T14:00:55.758730Z" name="toolnumber3" sequence="49">UNAVAILABLE</ToolNumber>
+          <OptionalStop dataItemId="12400000253_147" timestamp="2018-10-17T14:00:55.758730Z" name="optionalstop3" sequence="50">UNAVAILABLE</OptionalStop>
+          <BlockDelete dataItemId="12400000253_148" timestamp="2018-10-17T14:00:55.758730Z" name="blockdelete3" sequence="51">UNAVAILABLE</BlockDelete>
+          <DryRun dataItemId="12400000253_149" timestamp="2018-10-17T14:00:55.758730Z" name="dryrun3" sequence="52">UNAVAILABLE</DryRun>
+          <Cutting dataItemId="12400000253_150" timestamp="2018-10-17T14:00:55.758730Z" name="cutting3" sequence="54">UNAVAILABLE</Cutting>
+          <OperationMode dataItemId="12400000253_151" timestamp="2018-10-17T14:00:55.758730Z" name="operationmode3" sequence="55">UNAVAILABLE</OperationMode>
+          <PathFeedrateOverride dataItemId="12400000253_152" timestamp="2018-10-17T14:00:55.758730Z" name="jogoverride3" sequence="56" subType="JOG">UNAVAILABLE</PathFeedrateOverride>
+          <PathFeedrateOverride dataItemId="12400000253_153" timestamp="2018-10-17T14:00:55.758730Z" name="rapidoverride3" sequence="57" subType="RAPID">UNAVAILABLE</PathFeedrateOverride>
+        </Events>
+        <Condition>
+          <Unavailable dataItemId="12400000253_154" timestamp="2018-10-17T14:00:55.758730Z" name="logic3" sequence="58" type="LOGIC_PROGRAM"/>
+          <Unavailable dataItemId="12400000253_155" timestamp="2018-10-17T14:00:55.758730Z" name="motion3" sequence="59" type="MOTION_PROGRAM"/>
+        </Condition>
+      </ComponentStream>
+      <ComponentStream component="Path" name="Path_4" componentId="12400000253_156">
+        <Samples>
+          <PathFeedrate dataItemId="12400000253_165" timestamp="2018-10-17T14:00:55.758730Z" name="path_feedrate4" sequence="68" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+        </Samples>
+        <Events>
+          <Reset dataItemId="12400000253_157" timestamp="2018-10-17T14:00:55.758730Z" name="reset4" sequence="60">UNAVAILABLE</Reset>
+          <PartCount dataItemId="12400000253_158" timestamp="2018-10-17T14:00:55.758730Z" name="part_count4" sequence="61" subType="ALL">UNAVAILABLE</PartCount>
+          <ActiveAxes dataItemId="12400000253_159" timestamp="2018-10-17T14:00:55.758730Z" name="axes4" sequence="62">UNAVAILABLE</ActiveAxes>
+          <ControllerMode dataItemId="12400000253_160" timestamp="2018-10-17T14:00:55.758730Z" name="mode4" sequence="63">UNAVAILABLE</ControllerMode>
+          <Execution dataItemId="12400000253_161" timestamp="2018-10-17T14:00:55.758730Z" name="execution4" sequence="64">UNAVAILABLE</Execution>
+          <Program dataItemId="12400000253_162" timestamp="2018-10-17T14:00:55.758730Z" name="program4" sequence="65">UNAVAILABLE</Program>
+          <Line dataItemId="12400000253_163" timestamp="2018-10-17T14:00:55.758730Z" name="line4" sequence="66" subType="MINIMUM">UNAVAILABLE</Line>
+          <Block dataItemId="12400000253_164" timestamp="2018-10-17T14:00:55.758730Z" name="block4" sequence="67">UNAVAILABLE</Block>
+          <ToolNumber dataItemId="12400000253_166" timestamp="2018-10-17T14:00:55.758730Z" name="toolnumber4" sequence="69">UNAVAILABLE</ToolNumber>
+          <OptionalStop dataItemId="12400000253_167" timestamp="2018-10-17T14:00:55.758730Z" name="optionalstop4" sequence="70">UNAVAILABLE</OptionalStop>
+          <BlockDelete dataItemId="12400000253_168" timestamp="2018-10-17T14:00:55.758730Z" name="blockdelete4" sequence="71">UNAVAILABLE</BlockDelete>
+          <DryRun dataItemId="12400000253_169" timestamp="2018-10-17T14:00:55.758730Z" name="dryrun4" sequence="72">UNAVAILABLE</DryRun>
+          <Cutting dataItemId="12400000253_170" timestamp="2018-10-17T14:00:55.758730Z" name="cutting4" sequence="74">UNAVAILABLE</Cutting>
+          <OperationMode dataItemId="12400000253_171" timestamp="2018-10-17T14:00:55.758730Z" name="operationmode4" sequence="75">UNAVAILABLE</OperationMode>
+          <PathFeedrateOverride dataItemId="12400000253_172" timestamp="2018-10-17T14:00:55.758730Z" name="jogoverride4" sequence="76" subType="JOG">UNAVAILABLE</PathFeedrateOverride>
+          <PathFeedrateOverride dataItemId="12400000253_173" timestamp="2018-10-17T14:00:55.758730Z" name="rapidoverride4" sequence="77" subType="RAPID">UNAVAILABLE</PathFeedrateOverride>
+        </Events>
+        <Condition>
+          <Unavailable dataItemId="12400000253_174" timestamp="2018-10-17T14:00:55.758730Z" name="logic4" sequence="78" type="LOGIC_PROGRAM"/>
+          <Unavailable dataItemId="12400000253_175" timestamp="2018-10-17T14:00:55.758730Z" name="motion4" sequence="79" type="MOTION_PROGRAM"/>
+        </Condition>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="B4" componentId="12400000253_16">
+        <Samples>
+          <Angle dataItemId="12400000253_17" timestamp="2018-10-17T14:00:56.3057620Z" name="B4act" sequence="245" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_18" timestamp="2018-10-17T14:00:56.3057620Z" name="B4load" sequence="246">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Coolant" name="Coolant" componentId="12400000253_177">
+        <Events>
+          <CoolantCustom dataItemId="12400000253_178" timestamp="2018-10-17T14:00:55.758730Z" name="coolant" sequence="80">UNAVAILABLE</CoolantCustom>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C" componentId="12400000253_19">
+        <Samples>
+          <Angle dataItemId="12400000253_20" timestamp="2018-10-17T14:00:56.3057620Z" name="Cact" sequence="247" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_21" timestamp="2018-10-17T14:00:56.3057620Z" name="Cload" sequence="248">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C2" componentId="12400000253_22">
+        <Samples>
+          <Angle dataItemId="12400000253_23" timestamp="2018-10-17T14:00:56.3057620Z" name="C2act" sequence="249" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_24" timestamp="2018-10-17T14:00:56.3057620Z" name="C2load" sequence="250">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C3" componentId="12400000253_25">
+        <Samples>
+          <Angle dataItemId="12400000253_26" timestamp="2018-10-17T14:00:56.3057620Z" name="C3act" sequence="251" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_27" timestamp="2018-10-17T14:00:56.3057620Z" name="C3load" sequence="252">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C4" componentId="12400000253_28">
+        <Samples>
+          <Angle dataItemId="12400000253_29" timestamp="2018-10-17T14:00:56.3057620Z" name="C4act" sequence="253" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_30" timestamp="2018-10-17T14:00:56.3057620Z" name="C4load" sequence="254">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C5" componentId="12400000253_31">
+        <Samples>
+          <RotaryVelocity dataItemId="12400000253_33" timestamp="2018-10-17T15:07:32.3873248Z" name="C5speed" sequence="332" subType="ACTUAL">0</RotaryVelocity>
+          <Load dataItemId="12400000253_35" timestamp="2018-10-17T14:00:55.758730Z" name="C5load" sequence="96">UNAVAILABLE</Load>
+        </Samples>
+        <Events>
+          <SpindleRotating dataItemId="12400000253_32" timestamp="2018-10-17T15:07:32.3873248Z" name="spindlerotating5" sequence="333">OFF</SpindleRotating>
+          <RotaryVelocityOverride dataItemId="12400000253_34" timestamp="2018-10-17T14:00:56.3057620Z" name="spindleoverride5" sequence="231">100</RotaryVelocityOverride>
+          <RotaryMode dataItemId="12400000253_36" timestamp="2018-10-17T14:00:55.758730Z" name="C5mode" sequence="97">UNAVAILABLE</RotaryMode>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C6" componentId="12400000253_37">
+        <Samples>
+          <RotaryVelocity dataItemId="12400000253_39" timestamp="2018-10-17T14:00:55.758730Z" name="C6speed" sequence="99" subType="ACTUAL">UNAVAILABLE</RotaryVelocity>
+          <Load dataItemId="12400000253_41" timestamp="2018-10-17T14:00:55.758730Z" name="C6load" sequence="101">UNAVAILABLE</Load>
+        </Samples>
+        <Events>
+          <SpindleRotating dataItemId="12400000253_38" timestamp="2018-10-17T14:00:55.758730Z" name="spindlerotating6" sequence="98">UNAVAILABLE</SpindleRotating>
+          <RotaryVelocityOverride dataItemId="12400000253_40" timestamp="2018-10-17T14:00:55.758730Z" name="spindleoverride6" sequence="100">UNAVAILABLE</RotaryVelocityOverride>
+          <RotaryMode dataItemId="12400000253_42" timestamp="2018-10-17T14:00:55.758730Z" name="C6mode" sequence="102">UNAVAILABLE</RotaryMode>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="A" componentId="12400000253_4">
+        <Samples>
+          <Angle dataItemId="12400000253_5" timestamp="2018-10-17T14:00:55.758730Z" name="Aact" sequence="108" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_6" timestamp="2018-10-17T14:00:55.758730Z" name="Aload" sequence="116">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C7" componentId="12400000253_43">
+        <Samples>
+          <RotaryVelocity dataItemId="12400000253_45" timestamp="2018-10-17T14:00:55.758730Z" name="C7speed" sequence="104" subType="ACTUAL">UNAVAILABLE</RotaryVelocity>
+          <Load dataItemId="12400000253_47" timestamp="2018-10-17T14:00:55.758730Z" name="C7load" sequence="106">UNAVAILABLE</Load>
+        </Samples>
+        <Events>
+          <SpindleRotating dataItemId="12400000253_44" timestamp="2018-10-17T14:00:55.758730Z" name="spindlerotating7" sequence="103">UNAVAILABLE</SpindleRotating>
+          <RotaryVelocityOverride dataItemId="12400000253_46" timestamp="2018-10-17T14:00:55.758730Z" name="spindleoverride7" sequence="105">UNAVAILABLE</RotaryVelocityOverride>
+          <RotaryMode dataItemId="12400000253_48" timestamp="2018-10-17T14:00:55.758730Z" name="C7mode" sequence="107">UNAVAILABLE</RotaryMode>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X" componentId="12400000253_49">
+        <Samples>
+          <Position dataItemId="12400000253_50" timestamp="2018-10-17T14:00:56.3057620Z" name="Xact" sequence="255" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_51" timestamp="2018-10-17T14:00:56.3057620Z" name="Xload" sequence="256">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X2" componentId="12400000253_52">
+        <Samples>
+          <Position dataItemId="12400000253_53" timestamp="2018-10-17T14:00:56.3057620Z" name="X2act" sequence="257" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_54" timestamp="2018-10-17T14:00:56.3057620Z" name="X2load" sequence="258">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X3" componentId="12400000253_55">
+        <Samples>
+          <Position dataItemId="12400000253_56" timestamp="2018-10-17T14:00:56.3057620Z" name="X3act" sequence="259" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_57" timestamp="2018-10-17T14:00:56.3057620Z" name="X3load" sequence="260">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X4" componentId="12400000253_58">
+        <Samples>
+          <Position dataItemId="12400000253_59" timestamp="2018-10-17T14:00:56.3057620Z" name="X4act" sequence="261" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_60" timestamp="2018-10-17T14:00:56.3057620Z" name="X4load" sequence="262">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Y" componentId="12400000253_61">
+        <Samples>
+          <Position dataItemId="12400000253_62" timestamp="2018-10-17T14:00:56.3057620Z" name="Yact" sequence="263" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_63" timestamp="2018-10-17T14:00:56.3057620Z" name="Yload" sequence="264">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Y2" componentId="12400000253_64">
+        <Samples>
+          <Position dataItemId="12400000253_65" timestamp="2018-10-17T14:00:56.3057620Z" name="Y2act" sequence="265" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_66" timestamp="2018-10-17T14:00:56.3057620Z" name="Y2load" sequence="266">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Y3" componentId="12400000253_67">
+        <Samples>
+          <Position dataItemId="12400000253_68" timestamp="2018-10-17T14:00:56.3057620Z" name="Y3act" sequence="267" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_69" timestamp="2018-10-17T14:00:56.3057620Z" name="Y3load" sequence="268">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="B" componentId="12400000253_7">
+        <Samples>
+          <Angle dataItemId="12400000253_8" timestamp="2018-10-17T14:00:56.3057620Z" name="Bact" sequence="239" subType="ACTUAL">UNAVAILABLE</Angle>
+          <Load dataItemId="12400000253_9" timestamp="2018-10-17T14:00:56.3057620Z" name="Bload" sequence="240">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Y4" componentId="12400000253_70">
+        <Samples>
+          <Position dataItemId="12400000253_71" timestamp="2018-10-17T14:00:56.3057620Z" name="Y4act" sequence="269" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_72" timestamp="2018-10-17T14:00:56.3057620Z" name="Y4load" sequence="270">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z" componentId="12400000253_73">
+        <Samples>
+          <Position dataItemId="12400000253_74" timestamp="2018-10-17T14:00:56.3057620Z" name="Zact" sequence="271" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_75" timestamp="2018-10-17T14:00:56.3057620Z" name="Zload" sequence="272">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z2" componentId="12400000253_76">
+        <Samples>
+          <Position dataItemId="12400000253_77" timestamp="2018-10-17T14:00:56.3057620Z" name="Z2act" sequence="273" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_78" timestamp="2018-10-17T14:00:56.3057620Z" name="Z2load" sequence="274">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z3" componentId="12400000253_79">
+        <Samples>
+          <Position dataItemId="12400000253_80" timestamp="2018-10-17T14:00:56.3057620Z" name="Z3act" sequence="275" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_81" timestamp="2018-10-17T14:00:56.3057620Z" name="Z3load" sequence="276">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z4" componentId="12400000253_82">
+        <Samples>
+          <Position dataItemId="12400000253_83" timestamp="2018-10-17T14:00:56.3057620Z" name="Z4act" sequence="277" subType="ACTUAL">UNAVAILABLE</Position>
+          <Load dataItemId="12400000253_84" timestamp="2018-10-17T14:00:56.3057620Z" name="Z4load" sequence="278">UNAVAILABLE</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Controller" name="Controller" componentId="12400000253_85">
+        <Samples>
+          <OperationTime dataItemId="12400000253_92" timestamp="2018-10-17T14:00:56.3057620Z" name="operationTime" sequence="286">0</OperationTime>
+          <PowerOnTime dataItemId="12400000253_93" timestamp="2018-10-17T14:00:56.3057620Z" name="powerOnTime" sequence="287">0</PowerOnTime>
+          <CuttingTime dataItemId="12400000253_94" timestamp="2018-10-17T14:00:56.3057620Z" name="cuttingTime" sequence="288">UNAVAILABLE</CuttingTime>
+        </Samples>
+        <Events>
+          <LightStateRed dataItemId="12400000253_86" timestamp="2018-10-17T15:35:49.9734211Z" name="light_state_red" sequence="354">ON</LightStateRed>
+          <LightStateYellow dataItemId="12400000253_87" timestamp="2018-10-17T14:00:56.3057620Z" name="light_state_yellow" sequence="282">OFF</LightStateYellow>
+          <LightStateGreen dataItemId="12400000253_88" timestamp="2018-10-17T15:35:49.9734211Z" name="light_state_green" sequence="353">OFF</LightStateGreen>
+          <LightStateBlue dataItemId="12400000253_89" timestamp="2018-10-17T15:35:49.9734211Z" name="light_state_blue" sequence="352">OFF</LightStateBlue>
+          <ControlVersionNumber dataItemId="12400000253_90" timestamp="2018-10-17T14:00:56.3057620Z" name="controlVersion" sequence="283">SIEMENS_991906</ControlVersionNumber>
+          <MtconnectAdapterVersion dataItemId="12400000253_91" timestamp="2018-10-17T14:00:56.3057620Z" name="mtconnect_adapter_version" sequence="284">SIEMENSMTCONNECTADAPTER V1.2.7</MtconnectAdapterVersion>
+          <MachineSn dataItemId="12400000253_95" timestamp="2018-10-17T14:00:56.3057620Z" name="machineSN" sequence="285">CETR0000003</MachineSn>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Path" name="Path_1" componentId="12400000253_96">
+        <Samples>
+          <PathFeedrate dataItemId="12400000253_105" timestamp="2018-10-17T14:00:55.758730Z" name="path_feedrate1" sequence="7" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+        </Samples>
+        <Events>
+          <ControllerMode dataItemId="12400000253_100" timestamp="2018-10-17T15:14:02.9836656Z" name="mode1" sequence="348">AUTOMATIC</ControllerMode>
+          <Execution dataItemId="12400000253_101" timestamp="2018-10-17T15:13:57.9753791Z" name="execution1" sequence="346">PROGRAM_COMPLETED</Execution>
+          <Program dataItemId="12400000253_102" timestamp="2018-10-17T15:14:02.9836656Z" name="program1" sequence="350">HSC2.MPF</Program>
+          <Line dataItemId="12400000253_103" timestamp="2018-10-17T14:00:56.3057620Z" name="line1" sequence="235" subType="MINIMUM">UNAVAILABLE</Line>
+          <Block dataItemId="12400000253_104" timestamp="2018-10-17T15:14:02.9836656Z" name="block1" sequence="351"/>
+          <ToolNumber dataItemId="12400000253_106" timestamp="2018-10-17T14:00:56.3057620Z" name="toolnumber1" sequence="236">8</ToolNumber>
+          <OptionalStop dataItemId="12400000253_107" timestamp="2018-10-17T14:00:56.3057620Z" name="optionalstop1" sequence="237">UNAVAILABLE</OptionalStop>
+          <BlockDelete dataItemId="12400000253_108" timestamp="2018-10-17T14:00:56.3057620Z" name="blockdelete1" sequence="238">UNAVAILABLE</BlockDelete>
+          <DryRun dataItemId="12400000253_109" timestamp="2018-10-17T14:00:55.758730Z" name="dryrun1" sequence="11">UNAVAILABLE</DryRun>
+          <Cutting dataItemId="12400000253_110" timestamp="2018-10-17T14:00:55.758730Z" name="cutting1" sequence="13">UNAVAILABLE</Cutting>
+          <OperationMode dataItemId="12400000253_111" timestamp="2018-10-17T15:14:02.9836656Z" name="operationmode1" sequence="349">AUTOMATIC</OperationMode>
+          <PathFeedrateOverride dataItemId="12400000253_112" timestamp="2018-10-17T15:07:32.3873248Z" name="jogoverride1" sequence="330" subType="JOG">100</PathFeedrateOverride>
+          <PathFeedrateOverride dataItemId="12400000253_113" timestamp="2018-10-17T15:07:32.3873248Z" name="rapidoverride1" sequence="331" subType="RAPID">100</PathFeedrateOverride>
+          <Reset dataItemId="12400000253_97" timestamp="2018-10-17T14:00:56.3057620Z" name="reset1" sequence="226">OFF</Reset>
+          <PartCount dataItemId="12400000253_98" timestamp="2018-10-17T15:12:37.8507963Z" name="part_count1" sequence="342" subType="ALL">2</PartCount>
+          <ActiveAxes dataItemId="12400000253_99" timestamp="2018-10-17T14:00:56.3057620Z" name="axes1" sequence="234">X1 Z1 C4 C1 Y1 Z3 C3  B1  Z2 X2  C2 Q1</ActiveAxes>
+        </Events>
+        <Condition>
+          <Normal dataItemId="12400000253_114" timestamp="2018-10-17T14:00:56.3057620Z" name="logic1" sequence="289" type="LOGIC_PROGRAM"/>
+          <Normal dataItemId="12400000253_115" timestamp="2018-10-17T14:35:49.4884852Z" name="motion1" sequence="303" type="MOTION_PROGRAM"/>
+        </Condition>
+      </ComponentStream>
+    </DeviceStream>
+  </Streams>
+</MTConnectStreams>
